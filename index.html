@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring</title>
+
+    <link rel="stylesheet" href="css/estilo-game.css">
+    
+
+</head>
+<body>
+
+    <!--TOPO-->
+    <section class="container-cabecalho">
+        <div id="area-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="116" height="34" viewBox="0 0 116 34" fill="none">
+                <g clip-path="url(#clip0_1_75)">
+                  <path d="M24.5462 33.4883C21.5475 33.4883 18.5488 33.5222 15.5501 33.4826C7.12988 33.3667 0.412545 26.6153 0.0276687 18.0235C-0.210456 12.7224 1.04662 8.0321 5.02552 4.38217C7.93009 1.71612 11.4327 0.497589 15.2843 0.443873C21.1432 0.359056 27.0022 0.421255 32.8612 0.381674C33.6725 0.37602 33.8829 0.661568 33.8608 1.43905C33.8137 3.03925 33.7888 4.6451 33.8691 6.24248C33.9217 7.26875 33.5479 7.49493 32.6065 7.48645C27.2099 7.44404 21.8105 7.51189 16.414 7.45535C8.2762 7.37053 5.20273 15.38 7.78611 21.1843C9.26193 24.5034 11.8951 26.2535 15.4061 26.3665C19.5539 26.5022 23.71 26.3779 27.8606 26.4287C28.7549 26.44 28.9488 26.1064 28.9211 25.2837C28.8712 23.7316 28.8518 22.1738 28.9266 20.6217C28.9737 19.6463 28.5888 19.4314 27.7249 19.4399C23.9897 19.4738 20.2517 19.4173 16.5137 19.4766C15.4753 19.4936 15.1209 19.1911 15.2067 18.1309C15.2953 17.0537 15.2593 15.9652 15.215 14.8824C15.1846 14.1587 15.4116 13.8957 16.1509 13.8986C22.3782 13.924 28.6082 13.924 34.8354 13.8986C35.6412 13.8957 35.8461 14.1869 35.8433 14.9616C35.8184 20.7545 35.8101 26.5503 35.8488 32.3433C35.8544 33.2989 35.5276 33.525 34.6554 33.5137C31.2885 33.4713 27.9187 33.4968 24.5518 33.4968V33.4911L24.5462 33.4883Z" fill="white"/>
+                  <path d="M79.0657 33.4883C76.0006 33.4883 72.9797 33.4883 69.9589 33.4883C69.4078 33.4883 69.1753 33.0331 68.879 32.6967C66.7193 30.2483 64.5512 27.8056 62.433 25.3177C61.9014 24.6928 61.3614 24.4214 60.5446 24.4356C58.0083 24.4836 55.4665 24.3903 52.9329 24.4808C51.7866 24.5204 51.4986 24.102 51.5789 23.0304C51.6592 21.9533 51.662 20.8592 51.5789 19.782C51.4959 18.7331 51.8254 18.408 52.8803 18.4278C56.5713 18.4928 60.2622 18.473 63.9531 18.4475C68.2948 18.4193 70.6677 14.7043 69.0756 10.5229C68.3307 8.56645 66.8439 7.56845 64.9333 7.52887C59.3983 7.4186 53.8605 7.47798 48.3255 7.45536C47.7302 7.45536 47.4838 7.69284 47.5087 8.28373C47.5225 8.65975 47.5087 9.03859 47.5087 9.41461C47.5087 17 47.4893 24.5854 47.5308 32.168C47.5364 33.2225 47.2539 33.5759 46.2101 33.5137C44.7398 33.4261 43.2557 33.4374 41.7826 33.5109C40.8384 33.559 40.6307 33.183 40.6335 32.2896C40.6584 22.0664 40.6557 11.8432 40.6391 1.62C40.6391 0.794456 40.7304 0.361893 41.7383 0.367547C49.3057 0.41561 56.8731 0.339275 64.4377 0.418437C69.2583 0.469327 73.2511 2.24481 75.2142 7.07086C76.7399 10.8254 76.7094 14.6902 75.073 18.4589C74.223 20.4181 72.8468 21.9674 70.9667 22.8834C69.6986 23.5026 70.0004 23.873 70.7868 24.6533C73.3314 27.1836 75.8095 29.7818 78.3043 32.3602C78.5812 32.6458 78.9688 32.8606 79.074 33.4798L79.0657 33.4883Z" fill="white"/>
+                  <path d="M88.3554 11.4615C88.3554 12.7931 88.3554 13.7233 88.3554 14.6534C88.3554 20.4944 88.3304 26.3354 88.3775 32.1736C88.3858 33.2197 88.1256 33.59 87.0734 33.5194C85.7415 33.4261 84.3958 33.4261 83.064 33.5194C82.0063 33.5929 81.7322 33.2112 81.7543 32.1651C81.818 29.058 81.7765 25.9481 81.7765 22.841C81.7765 16.9548 81.7765 11.0657 81.7765 5.17943C81.7765 4.80342 81.7516 4.42457 81.7848 4.04855C81.926 2.43987 82.2832 0.893388 83.9501 0.257266C85.5837 -0.367547 86.9792 0.197894 88.2197 1.41925C94.6878 7.79743 101.181 14.1502 107.668 20.5114C108.128 20.9609 108.596 21.4048 109.081 21.8684C109.554 21.3482 109.349 20.8082 109.352 20.3276C109.368 14.0173 109.388 7.70413 109.338 1.3938C109.33 0.319464 109.64 0.00564429 110.664 0.0678429C112.09 0.152659 113.525 0.12156 114.953 0.0763245C115.712 0.0537068 116.008 0.285538 116.006 1.10826C115.983 10.7151 116.011 20.3248 115.97 29.9316C115.964 31.5545 115.402 33.0048 113.777 33.706C112.071 34.4439 110.747 33.6975 109.551 32.5072C102.947 25.934 96.3409 19.3607 89.737 12.7903C89.3799 12.434 89.0116 12.0891 88.3609 11.4615H88.3554Z" fill="#FFA800"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_75">
+                    <rect width="116" height="34" fill="white"/>
+                  </clipPath>
+                </defs>
+            </svg>
+        </div>
+
+        <div id="nav-menu">        
+            <div id="area-menu">
+                <a href="index.html">Elden Ring</a>
+                <a href="rdr2.html">Red Dead Redemption 2</a>
+                <a href="godofwar.html">God of War Ragnarok</a>
+                <a href="diabloiv.html">Diablo IV</a>
+                
+           
+                <div class="search-box">
+                    <input type="text" class="search-text" placeholder="Pesquisar...">
+                    <a class="search-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M15 15L11.6167 11.6167M13.4444 7.22222C13.4444 10.6587 10.6587 13.4444 7.22222 13.4444C3.78578 13.4444 1 10.6587 1 7.22222C1 3.78578 3.78578 1 7.22222 1C10.6587 1 13.4444 3.78578 13.4444 7.22222Z" stroke="#FFA800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--FIM TOPO-->
+
+    <!--CONTEÚDO-->
+    <section id="all-content">
+
+        <div id="banner-elden">
+
+            <img src="img/Elden Ring/banner-elden-ring.jpg", alt="" width="426" height="575" style="border-radius: 25px;">
+
+        </div>
+        <!--CONTEÚDO DO GAME-->
+        <div id="content-game">
+
+           <h1 class="titulo">Elden Ring</h1>
+
+           <svg xmlns="http://www.w3.org/2000/svg" width="100" height="18" viewBox="0 0 200 32" fill="none">
+            <path d="M16 0L20.2321 10.1751L31.2169 11.0557L22.8476 18.2249L25.4046 28.9443L16 23.2L6.59544 28.9443L9.15239 18.2249L0.783095 11.0557L11.7679 10.1751L16 0Z" fill="#FFD464"/>
+            <path d="M58 0L62.2321 10.1751L73.2169 11.0557L64.8476 18.2249L67.4046 28.9443L58 23.2L48.5954 28.9443L51.1524 18.2249L42.7831 11.0557L53.7679 10.1751L58 0Z" fill="#FFD464"/>
+            <path d="M100 0L104.232 10.1751L115.217 11.0557L106.848 18.2249L109.405 28.9443L100 23.2L90.5954 28.9443L93.1524 18.2249L84.7831 11.0557L95.7679 10.1751L100 0Z" fill="#FFD464"/>
+            <path d="M142 0L146.232 10.1751L157.217 11.0557L148.848 18.2249L151.405 28.9443L142 23.2L132.595 28.9443L135.152 18.2249L126.783 11.0557L137.768 10.1751L142 0Z" fill="#FFD464"/>
+            <path d="M184 0L188.232 10.1751L199.217 11.0557L190.848 18.2249L193.405 28.9443L184 23.2L174.595 28.9443L177.152 18.2249L168.783 11.0557L179.768 10.1751L184 0Z" fill="#FFD464"/>
+          </svg>
+
+          <div style="color: rgb(114, 114, 114); font-size: 20px;">
+            Fromsoftware
+          </div>
+
+            <!--button-->
+          <form method="get" action="https://store.steampowered.com/app/1245620/ELDEN_RING/"; style="display: inline-block;">
+            <button class="button", style="margin-top: 10px;">Adquirir</button>
+        </form>
+          <!--Icones-->
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="42" height="45" viewBox="0 0 42 47" fill="none" style="position: relative; top: 15px; left: 10px; cursor:pointer">
+            <path d="M2 45V2H40V45L21 26.1462L2 45Z" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="42" height="45" viewBox="0 0 42 47" fill="none" style="position: relative; top: 15px; left: 20px; cursor:pointer;"<a href="https://www.instagram.com/"></a>>
+            <path d="M13.8011 26.7465L28.22 35.3035M28.1989 11.6965L13.8011 20.2535M40 8.45C40 12.0122 37.1645 14.9 33.6667 14.9C30.1689 14.9 27.3333 12.0122 27.3333 8.45C27.3333 4.88776 30.1689 2 33.6667 2C37.1645 2 40 4.88776 40 8.45ZM14.6667 23.5C14.6667 27.0622 11.8311 29.95 8.33333 29.95C4.83553 29.95 2 27.0622 2 23.5C2 19.9378 4.83553 17.05 8.33333 17.05C11.8311 17.05 14.6667 19.9378 14.6667 23.5ZM40 38.55C40 42.1122 37.1645 45 33.6667 45C30.1689 45 27.3333 42.1122 27.3333 38.55C27.3333 34.9878 30.1689 32.1 33.6667 32.1C37.1645 32.1 40 34.9878 40 38.55Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+
+          <!--fim de Icones-->
+
+
+          <p class="description">Em Elden Ring, o jogador incorpora um Maculado,<br> guerreiro guiado pela força da Graça para
+            portar o<br> poder do Anel Prístino e torna-se um Lorde Prístino.<br> A trama tem como cenário as Terras Intermédias,<br> um local governado pela Rainha Marika...</p>
+
+           <!--DESCRIÇÕES-->
+            <div class="informations">
+                
+                <p style="border-bottom: 1px solid #4b4b4b54;">Gênero<span style="padding-left: 160px;">RPG de ação</span><span style="padding-left: 57px;">Soulslike</span></p>
+                <p style="padding-top: 20px; border-bottom: 1px solid #4b4b4b54;">Publicadora/Diretor(es)<span style="padding-left: 40px;">Bandai Namco</span> <span style="padding-left: 40px;">Hidetaka Miyazaki</span></p>
+                <p style="padding-top: 20px; border-bottom: 1px solid #4b4b4b54;">Lançamento<span style="padding-left: 120px;">25 de fevereiro de 2022</span></p>
+                <p style="padding-top: 20px; border-bottom: 1px solid #4b4b4b54;">Conquistas<span style="padding-left: 128px;">The Game Award para jogo do Ano 2022</span></p>
+
+            </div>
+            <!--FIM DESCRIÇÕES-->
+
+        </div>
+        <!--FIM CONTEÚDO DO GAME-->
+
+        <div id="plataformas">
+            <p style="color: rgb(92, 92, 92);">Plataformas</p>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="322" height="36" viewBox="0 0 322 46" fill="none";
+        style="padding: 10px 50px 0px 50px;">
+            <path d="M0 0H322V46H0V0Z" fill="url(#pattern0_38_4)"/>
+            <defs>
+              <pattern id="pattern0_38_4" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_38_4" transform="scale(0.00310559 0.0217391)"/>
+              </pattern>
+              <image id="image0_38_4" width="322" height="46" xlink:href="data:image/png;base64,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"/>
+            </defs>
+          </svg>
+
+        <!--lateral-->
+        <div id="area-lateral">
+            <h3>Conteúdo Adicional</h3>
+            <p style="color: #878787; font-size: 14px; padding-top: 5px;">Shadow of the Erdtree leva os jogadores<br> a continuarem sua missão com a liberdade<br> de explorar e vivenciar a aventura no seu próprio ritmo. O Reino das Sombras foi mantido separado das Terras Intermédias desde a sua criação.</p>
+
+            <a href="https://store.steampowered.com/app/2778580/ELDEN_RING_Shadow_of_the_Erdtree/">
+             <img src="img/Elden Ring/banner-dlc.jpg" alt="", width="300", style="border-radius: 15px; padding-top: 10px; margin-left: -10px;">
+            </a>
+
+            <p style="padding-top: 10px; text-align: center;">Veja também</p><br>
+            <p  style="color: #878787; text-align: center; font-size: 14px; padding-top: 5px; margin-top: -20px;">Outros títulos da desenvolvedora</p>
+
+            <div style="padding-left: 10px;"">
+                <img src="img/Elden Ring/bloodbourn.png" alt="" width="90px">
+                <img src="img/Elden Ring/ds3.png" alt="" width="90px">
+                <img src="img/Elden Ring/sekiro.png" alt="" width="90px">
+            </div>
+
+        </div>
+
+    </section>
+
+    <div id="rodape"><span style="color: #DDDDDD;">Criado por Gabriel Matias - 2024</span></div>
+
+   
+</body>
+</html>
